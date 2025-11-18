@@ -8,7 +8,7 @@ Professional landing page with clear pricing, short coach bio, and a conversion-
 
 ## 🚀 Github Demo
 
-[View Here](https://yourcode-jd.github.io/Personal_Coach/)
+[View Here](https://yourcode-jd.github.io/PulseFitCoach/)
 
 ---
 
