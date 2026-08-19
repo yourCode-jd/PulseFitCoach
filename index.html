@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gym Coach - Dark Theme</title>
+    <title>PulseFitCoach</title>
     <!-- Fevicon -->
-    <link rel="icon" type="image/x-icon" href="assets/bodybuilder.png">
+    <link rel="icon" type="image/x-icon" href="https://yourcode-jd.github.io/Personal_Coach/assets/bodybuilder.png">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 
     <!-- Normal CSS -->
@@ -30,17 +30,17 @@
         </button>
 
         <nav id="nav-drawer" class="nav-drawer">
-            <a href="#" class="nav-link">Home</a>
-            <a href="#" class="nav-link">Programs</a>
-            <a href="#" class="nav-link">Coaches</a>
-            <a href="#" class="nav-link">Contact</a>
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#programs" class="nav-link">Programs</a>
+            <a href="#coaches" class="nav-link">Coaches</a>
+            <a href="#footer-contact" class="nav-link">Contact</a>
         </nav>
 
         <div id="nav-overlay" class="nav-overlay hidden"></div>
     </header>
 
     <main>
-        <section class="hero">
+        <section class="hero" id="home">
             <div class="hero-content">
                 <div class="hero-content">
                     <!-- <h1 class="split-title" aria-label="Personal">Personal</h1> -->
@@ -68,7 +68,7 @@
         </section>
 
         <!-- training-section -->
-        <section class="training-section">
+        <section class="training-section" id="programs">
             <div class="training-content">
                 <div class="training-left">
                     <h2 class="training-title">Coach program is more than gym training</h2>
@@ -77,12 +77,14 @@
                         your
                         fitness goals.</p>
                     <div class="training-left-image">
-                        <img src="assets/training_02.jpg" alt="Cardio Training">
+                        <img src="https://yourcode-jd.github.io/Personal_Coach/assets/training_02.jpg"
+                            alt="Cardio Training">
                     </div>
                 </div>
                 <div class="training-right">
                     <div class="training-card">
-                        <img src="assets/training_01.jpg" alt="Strength Training">
+                        <img src="https://yourcode-jd.github.io/Personal_Coach/assets/training_01.jpg"
+                            alt="Strength Training">
                         <!-- <h3 class="training-card-title">Strength Training</h3>
                         <p class="training-card-description">Build muscle and increase strength with our comprehensive
                             strength training program.</p> -->
@@ -92,7 +94,7 @@
         </section>
 
         <!--  -->
-        <section class="features-section">
+        <section class="features-section" id="coaches">
             <div class="features-content">
                 <h2 style="margin-top: 0;">
                     <span class="">Inspired to</span><br>
@@ -117,7 +119,8 @@
 
                         <!-- Center: image area -->
                         <div class="feature-item feature-wrap" aria-hidden="true">
-                            <img class="" src="assets/bodybuilder.png" alt="" />
+                            <img class="" src="https://yourcode-jd.github.io/Personal_Coach/assets/bodybuilder.png"
+                                alt="" />
                         </div>
 
 
@@ -224,7 +227,7 @@
                 <h3>01<br>One-on-one<br>Training</h3>
                 <p>Get personalized fitness coaching tailored to your goals, body type, and lifestyle for faster and
                     safer results.</p>
-                <a href="#">Start Training</a>
+                <a href="#footer-contact">Start Training</a>
             </div>
 
             <div class="sticky-card card2">
@@ -234,7 +237,7 @@
                 <h3>02<br>Group<br>Sessions</h3>
                 <p>Stay motivated and push your limits with dynamic group workouts led by certified trainers in a fun
                     environment.</p>
-                <a href="#">Join a Session</a>
+                <a href="#footer-contact">Join a Session</a>
             </div>
 
             <div class="sticky-card card3">
@@ -244,7 +247,7 @@
                 <h3>03<br>Online<br>Coaching</h3>
                 <p>Train anytime, anywhere with virtual coaching, real-time feedback, and custom workout programs
                     designed for you.</p>
-                <a href="#">Start Online</a>
+                <a href="#footer-contact">Start Online</a>
             </div>
 
             <div class="sticky-card card4">
@@ -254,7 +257,7 @@
                 <h3>04<br>Specialty<br>Programs</h3>
                 <p>Level up with specialized fitness plans like strength training, fat loss, and mobility programs for
                     every goal.</p>
-                <a href="#">Explore Programs</a>
+                <a href="#programs">Explore Programs</a>
             </div>
         </section>
 
@@ -270,9 +273,9 @@
                 <div class="compareSlider-wrapper">
                     <!-- BeerSlider markup: outer container with before image, inner .beer-reveal contains after image -->
                     <div id="beer-slider" class="beer-slider h-full" data-beer-start="50">
-                        <img src="assets/after.png" alt="after" />
+                        <img src="https://yourcode-jd.github.io/Personal_Coach/assets/after.png" alt="after" />
                         <div class="beer-reveal">
-                            <img src="assets/before.png" alt="before" />
+                            <img src="https://yourcode-jd.github.io/Personal_Coach/assets/before.png" alt="before" />
                         </div>
                     </div>
                 </div>
@@ -280,7 +283,7 @@
         </section>
 
         <!--  -->
-        <section class="blog-section">
+        <section class="blog-section" id="blog">
             <div class="container">
                 <div class="section-head">
                     <h2>My Blog & Articles</h2>
@@ -354,18 +357,17 @@
                     <div class="footer-col">
                         <h4>Quick Links</h4>
                         <ul>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Programs</a></li>
-                            <li><a href="#">Trainers</a></li>
-                            <li><a href="#">Blog</a></li>
+                            <li><a href="#home">About</a></li>
+                            <li><a href="#programs">Programs</a></li>
+                            <li><a href="#coaches">Trainers</a></li>
+                            <li><a href="#blog">Blog</a></li>
                         </ul>
                     </div>
 
-                    <div class="footer-col">
+                    <div class="footer-col" id="footer-contact">
                         <h4>Contact</h4>
-                        <p>Email: info@tpssfitness.com</p>
+                        <p>Email: hello@pulsefitcoach.com</p>
                         <p>Phone: +91 98765 43210</p>
-                        <p>Location: Mumbai, India</p>
                     </div>
 
                     <!-- Newsletter inside footer -->
@@ -381,7 +383,7 @@
             </div>
 
             <div class="footer-bottom">
-                <p>© 2025 TPSS Fitness. All Rights Reserved.</p>
+                <p>© 2026 PulseFitCoach. All Rights Reserved.</p>
             </div>
         </footer>
 

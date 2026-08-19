@@ -8,9 +8,7 @@ Professional landing page with clear pricing, short coach bio, and a conversion-
 
 ## 🚀 Live Demo
 
-[View Here](https://yourcode-jd.github.io/PulseFitCoach/)
-
-*(Vercel deployment pending — will update once live)*
+[https://pulse-fit-coach.vercel.app/](https://pulse-fit-coach.vercel.app/)
 
 ---
 
@@ -25,5 +23,6 @@ Professional landing page with clear pricing, short coach bio, and a conversion-
 
 - HTML
 - CSS / Tailwind CSS
-- JavaScript
+- JavaScript (Pointer Events API)
+- GSAP
 - Git / GitHub Pages
